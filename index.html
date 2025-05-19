@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Saya</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="toggle-theme">🌙 Ganti Tema</button>
+  </div>
+
+  <div class="container">
+    <div class="profile">
+      <h1 class="name">Tomica Raya Bintang Anugrah</h1>
+      <p class="description">Halo, saya Tomica Raya, seorang pelajar di SMK Negeri 54 Jakarta. Saat ini saya sedang fokus belajar dan mengembangkan diri di bidang teknologi dan kreativitas digital.
+
+        Saya percaya bahwa belajar adalah proses seumur hidup, dan saya selalu terbuka untuk pengalaman baru yang bisa memperluas wawasan saya.
+        
+        Terima kasih sudah mampir ke halaman ini  yuk, terhubung di media sosial!
+        
+        </p>
+    </div>
+    
+    <div class="links">
+      <a href="https://wa.me/6287878257926" class="link" target="_blank">WhatsApp</a>
+      <a href="https://instagram.com/tomicaraya" class="link" target="_blank">Instagram</a>
+      <a href="https://tiktok.com/@abintangraya" class="link" target="_blank">TikTok</a>
+    </div>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-theme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('light');
+    });
+  </script>
+</body>
+</html>
